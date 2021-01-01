@@ -1,0 +1,12 @@
+Fórmula:
+=RIGHT(A1;LEN(A1)-FIND("@";SUBSTITUTE(A1;" ";"@";LEN(A1)-LEN(SUBSTITUTE(A1;" ";"")));1))
+
+1) A fórmula acima extrairá o valor 39,55 da string "CARREFOUR MBZ 334 39,55"
+2) Note que antes de 39,55 tem um espaço em branco
+3) Existe na fórmula, depois da célula deseja (no caso A1), um " ", informando que é um espaço em branco que servirá como delimitador
+
+Numa outra string "https://docs.google.com/spreadsheets/d/xxx", a fórmula irá extrair "xxx", mas no caso o delimitador é uma "/"
+Então a fórmula ficará assim:
+=RIGHT(A1;LEN(A1)-FIND("@";SUBSTITUTE(A1;"/";"@";LEN(A1)-LEN(SUBSTITUTE(A1;"/";"")));1))
+
+Então, é substituir sempre pelo delimitador que deseja usar.
