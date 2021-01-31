@@ -1,34 +1,40 @@
-# Introdução
+----------
+INTRODUÇÃO
+----------
   Modelo bem simples de um Gantt Chart utilizando uma planilha Google Sheets e somente fórmulas e formatação condicional.
 
-# Instruções de uso
+-----------------
+INSTRUÇÕES DE USO
+-----------------
 
-  **_Bloco das colunas A-F_**
+  Bloco das colunas A-F
   
-      **Linha 1**
+      Linha 1
         1. na coluna A1, inserir o nome do projeto. É um texto livre
         2. nas colunas B1, C1, D1, E1 e F1 não inserir nenhuma informação
       
-      **Linha 2**
+      Linha 2
         1. o cabeçalho é da coluna A2-F2
         
-      **a partir da linha 3**
+      a partir da linha 3
         1. na coluna A inserir o nome fase do projeto.
            - quando utilizar uma linha para identificar uma fase, não preencher mais nada a partir da coluna B
         2. na coluna B inserir o nome da atividade correspondente à fase que foi identifica na linha anterior
         3. na coluna C inserir o nome do responsável pela atividade
         4. na coluna D inserir a data (dd/mm/aaaa) de início da atividade
         5. na coluna E inserir a data (dd/mm/aaaa) de fim da atividade
-        6. na coluna F inserir ***Done*** quando a atividade estiver encerrada
-           - quando ***Done*** for inserido, as informações da atividade irão ficar em itálico e em cinza claro
+        6. na coluna F inserir 'Done' quando a atividade estiver encerrada
+           - quando 'Done' for inserido, as informações da atividade irão ficar em itálico e em cinza claro
         7. e assim, a partir da linha 3, ir inserindo fases e atividades para o gantt ir montando automaticamente
         
-  ***Bloco a partir da coluna G***
+  Bloco a partir da coluna G
       
     1. a partir da coluna G, não editar nada nessa área, pois tudo a partir da coluna G será montado automaticamente pelas fórmulas
     2. na linha 1, aparecerá o nome do mês, somente as 3 primeiras letras (jan, fev, ..), somente a coluna do 1o dia do mês.
     3. na linha 2, aparecerá o dia do mês  (01, 02, 03, 04, ...)
-    4. na linha 3 em diante será montado o *gantt chart*
+    4. na linha 3 em diante será montado o gantt chart, somente para as linhas das atividadeS
 
-
-https://docs.google.com/spreadsheets/d/1W7Ty5X4Syr_pGLuMrmp7pnl7tbRLZ1_hgd57qmPu2CA/edit?usp=sharing
+-------------------------------
+lINK DE UMA PLANILHA DE EXEMPLO
+-------------------------------
+  https://docs.google.com/spreadsheets/d/1W7Ty5X4Syr_pGLuMrmp7pnl7tbRLZ1_hgd57qmPu2CA/edit?usp=sharing
